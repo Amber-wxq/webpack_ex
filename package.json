@@ -28,6 +28,7 @@
     "less-loader": "^10.2.0",
     "mini-css-extract-plugin": "^2.6.0",
     "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
     "toml": "^3.0.0",
     "webpack-dev-server": "^4.9.0",
     "xml-loader": "^1.2.1",
