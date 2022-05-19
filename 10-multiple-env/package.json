@@ -4,7 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve -c ./config/webpack.config.js --env development",
+    "build": "webpack -c ./config/webpack.config.js --env production"
   },
   "keywords": [],
   "author": "",
@@ -31,7 +32,6 @@
     "terser-webpack-plugin": "^5.3.1",
     "toml": "^3.0.0",
     "webpack-dev-server": "^4.9.0",
-    "webpack-merge": "^5.8.0",
     "xml-loader": "^1.2.1",
     "yaml": "^1.10.2"
   }
